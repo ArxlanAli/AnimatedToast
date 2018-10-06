@@ -14,6 +14,7 @@
 		F5C8453B21692EEE0021C4FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F5C8453921692EEE0021C4FA /* LaunchScreen.storyboard */; };
 		F5C8454621692EEE0021C4FA /* AnimatedToastTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C8454521692EEE0021C4FA /* AnimatedToastTests.swift */; };
 		F5C8455121692EEE0021C4FA /* AnimatedToastUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C8455021692EEE0021C4FA /* AnimatedToastUITests.swift */; };
+		F5C8455F216930D40021C4FA /* ToastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5C8455E216930D40021C4FA /* ToastView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		F5C8454C21692EEE0021C4FA /* AnimatedToastUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AnimatedToastUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F5C8455021692EEE0021C4FA /* AnimatedToastUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatedToastUITests.swift; sourceTree = "<group>"; };
 		F5C8455221692EEE0021C4FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5C8455E216930D40021C4FA /* ToastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToastView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				F5C8453721692EEE0021C4FA /* Assets.xcassets */,
 				F5C8453921692EEE0021C4FA /* LaunchScreen.storyboard */,
 				F5C8453C21692EEE0021C4FA /* Info.plist */,
+				F5C8455E216930D40021C4FA /* ToastView.swift */,
 			);
 			path = AnimatedToast;
 			sourceTree = "<group>";
@@ -257,6 +260,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F5C8453321692EED0021C4FA /* ViewController.swift in Sources */,
+				F5C8455F216930D40021C4FA /* ToastView.swift in Sources */,
 				F5C8453121692EED0021C4FA /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -433,6 +437,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73VT64QA8S;
 				INFOPLIST_FILE = AnimatedToast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +455,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 73VT64QA8S;
 				INFOPLIST_FILE = AnimatedToast/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
